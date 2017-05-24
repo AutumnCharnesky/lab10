@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel=stylesheet type="text/css" href="style.css">
+
+    <title>Theatre</title>
+  </head>
+  <body>
+
+    <center><h1>Wonder Land</h1></center>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div id="formModal" class="modal">
+            <div id="infoform">
+            <form id="info" >
+              <span class="close">&times;</span><br></br>
+            <h1>Purchase Tickets</h1>
+                <p>Name<br><input type="text" id="name"></p><br>
+                <p>Email<br><input type="email" id="email"></p><br>
+                <p>Phone<br><input type="number" id="phone"></p><br>
+                <button type="button" class="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class='stage'>Stage</div>
+
+          <div class='isle'>
+            <div class='available' id='1'>One</div>
+            <div class='available' id='2'>Two</div>
+            <div class='available' id='3'>Three</div>
+          </div>
+
+          <div class='isle'>
+            <div class='available' id='4'>Four</div>
+            <div class='available' id='5'>Five</div>
+            <div class='available' id='6'>Six</div>
+          </div>
+
+          <div class='isle'>
+            <div class='available' id='7'>Seven</div>
+            <div class='available' id='8'>Eight</div>
+            <div class='available' id='9'>Nine</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js">
+    </script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
+
+<!-- onsubmit="this.submit(); this.reset(); return false;" -->

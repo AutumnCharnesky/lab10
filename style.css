@@ -1,0 +1,22 @@
+.modal {
+  margin-left: 20%;
+}
+
+.available {
+  margin: 20px;
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.isle {
+    float: left;
+}
+
+.stage {
+  height: 100px;
+  width: 300px;
+  background-color: green;
+}
